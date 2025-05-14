@@ -1,0 +1,144 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{655C04F9A7A4E9F1}" {
+     NavmeshFile "{7FADC4D5123F81EA}NavMesh/Bad_Orb_soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{551533FBA5E01BC6}NavMesh/Bad_Orb_btrlike.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{FF19B45E169B591F}NavMesh/Bad_Orb_lowres.nmn"
+    }
+   }
+  }
+ }
+ coords 706.847 137.245 3863.855
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 702.245 137.143 3859.163
+}
+PS_GameModeCoop PS_GameMode_Lobby_TILWMF1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_TILWMF.et" {
+ coords 718.805 138.172 3865.964
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{623962205CE2B89C}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+        m_sCallsign "Fox"
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+        m_sCallsign "Snake"
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+        m_sCallsign "Eagle"
+       }
+      }
+      m_sCallsignGroupFormat "%1 %3"
+     }
+    }
+   }
+  }
+ }
+}
+TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 4730.746 185.124 3338.584
+ m_queryRadius 40
+ m_captureTime 300
+ m_flagName "ION_Extract"
+ m_factionKey "RHS_ION"
+}
+$grp Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ BTR70_Base1 {
+  components {
+   RigidBody "{51DAA09FECF52BBF}" {
+    Static 1
+   }
+  }
+  coords 4476.268 184.469 3602.567
+  angleY -85.157
+ }
+ BTR70_Base2 {
+  components {
+   RigidBody "{51DAA09FECF52BBF}" {
+    Static 1
+   }
+  }
+  coords 4482.928 184.375 3599.327
+  angleY -19.176
+ }
+}
+$grp TILW_PresenceTriggerEntity : "{826E6F2246328952}Prefabs/Logic/Triggers/TILW_PresenceTrigger.et" {
+ {
+  coords 4982.265 175.546 3725.789
+  angleX 0.955
+  angleY -0.011
+  angleZ -0.644
+  m_queryRadius 8
+ }
+ {
+  coords 4478.929 184.438 3599.967
+  m_queryRadius 10
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ {
+  coords 4728.859 183.156 3341.38
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "pick-up"
+  m_fWorldSize 100
+  m_sDescription "ION Secondary Extraction"
+  m_aVisibleForFactions {
+   "RHS_ION"
+  }
+  m_aHideOnGameModeStates {
+  }
+ }
+ {
+  coords 4478.792 184.438 3599.29
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "pick-up"
+  m_fWorldSize 100
+  m_sDescription "NVA BTR Extraction"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 4982.282 175.656 3726.57
+  m_MarkerColor 0.502 0.376 0 1
+  m_sQuadName "pick-up"
+  m_fWorldSize 100
+  m_sDescription "Insurgent Underground Access Point"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+ {
+  coords 4436.641 161.969 3944.359
+  m_sImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+  m_sImageSetGlow "{C07D82625600BA21}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor-outline.imageset"
+  m_MarkerColor 0 0.502 0.125 1
+  m_sQuadName "infantry"
+  m_fWorldSize 100
+  m_sDescription "ION Regroup Point"
+  m_bVisibleForEmptyFaction 1
+  m_aHideOnGameModeStates {
+  }
+  m_bShowForAnyFaction 1
+ }
+}

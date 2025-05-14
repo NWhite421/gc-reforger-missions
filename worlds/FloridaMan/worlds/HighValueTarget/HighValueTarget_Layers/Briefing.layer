@@ -1,0 +1,12 @@
+PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 4442.91 177.857 3723.5
+ m_sTitle "Overview"
+ m_sTextData "An ION protection convoy has been ambushed by insurgent forces. The insurgents were unsucessful in kidnapping the VIP. ION has since regrouped and is preparing to move the HVT to a secondary extraction point."\
+ ""\
+ "The insurgents have regrouped and are ready for round two."\
+ ""\
+ "A local group of soldiers have also heard the comotion and will also attempt to grab the HVT for political leverage."
+ m_bEmptyFactionVisibility 1
+ m_bShowForAnyFaction 1
+ m_iOrder 10000
+}

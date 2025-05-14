@@ -1,0 +1,186 @@
+PolylineShapeEntity {
+ coords 4758.639 182.332 3331.403
+ Points {
+  ShapePoint "{655C04FDFBF6DE3C}" {
+   Position 0.772 -0.618 -1.209
+  }
+  ShapePoint "{655C04FDFB22AAB3}" {
+   Position -61.028 -2.159 48.427
+  }
+ }
+ LineColor 0 0 0 0
+ {
+  WallGeneratorEntity : "{AFBC8775A67A25AC}Prefabs/WEGenerators/Walls/Stone/Rugid StoneWall_fd.et" {
+   Flags 1048579
+   {
+    SCR_DestructibleEntity : "{9A7FC9D9A8206B74}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_start.et" {
+     coords 0.772 -0.868 -1.209
+     angleY -141.229
+    }
+   }
+  }
+ }
+}
+SCR_AIGroup : "{14BF2CFBAD86DA03}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_PHQ_P.et" {
+ coords 4483.519 186.679 3580.932
+}
+$grp SCR_AIGroup : "{462E231DFE748567}Prefabs/Groups/OPFOR/GC_NVA/P/Group_GC_NVA_MotShutzen_P.et" {
+ {
+  coords 4484.083 187.222 3575.868
+  m_aUnitPrefabSlots {
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
+ }
+ {
+  coords 4484.176 187.713 3570.125
+  m_aUnitPrefabSlots {
+   "{5DB24CC9BAA2001B}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_SquadLeader_P.et" "{EB89C2702E85B0BA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_DeputySquadLeader_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{EB1EF55EF3062BE0}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_MachineGunner_P.et" "{A69B880DB3917BE5}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT1_P.et" "{F873A14E0C1CF5EA}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_AT2_P.et" "{90DC37DA0D0120B4}Prefabs/Characters/Factions/OPFOR/GC_NVA/P/Character_GC_NVA_Rifleman_P.et"
+  }
+ }
+}
+GenericEntity : "{56FFF0C990358ED2}Prefabs/Props/Wrecks/UAZ452_wreck_static.et" {
+ coords 4728.822 183.125 3346.997
+ angleY -109.812
+}
+SCR_DestructibleBuildingEntity : "{5943A8F87263D906}Prefabs/Structures/Agriculture/Barn/Barn_E_01/Barn_E_01_old.et" {
+ coords 4734.808 0.316 3335.315
+ angleY -42.271
+}
+GenericEntity : "{77F237994998613F}Prefabs/Props/Wrecks/UH1H_wreck.et" {
+ coords 4723.184 183.104 3343.681
+ angleX -1.695
+ angleY 18.711
+ angleZ -0.574
+}
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+  }
+ }
+ coords 4393.113 160.957 4010.673
+ Points {
+  ShapePoint "{655C04FE75E74E0D}" {
+   Position 18.224 1.793 6.453
+  }
+  ShapePoint "{655C04FE762584AA}" {
+   Position -9.301 0.71 -43.992
+  }
+  ShapePoint "{655C04FE77F5AF3C}" {
+   Position -26.477 1.053 -111.629
+  }
+  ShapePoint "{655C04FE681C863E}" {
+   Position -52.442 5.991 -170.477
+  }
+  ShapePoint "{655C04FE691BD850}" {
+   Position -34.039 10.518 -219.891
+  }
+  ShapePoint "{655C04FE6A7F2B9C}" {
+   Position -2.019 13.792 -271.692
+  }
+  ShapePoint "{655C04FE6A94849A}" {
+   Position 3.534 15.654 -329.827
+  }
+  ShapePoint "{655C04FE6DC3695F}" {
+   Position -0.331 20.245 -382.691
+  }
+  ShapePoint "{655C04FE60787012}" {
+   Position 74.159 24.674 -415.881
+  }
+  ShapePoint "{655C04FE61801A5A}" {
+   Position 44.471 34.851 -476.418
+  }
+  ShapePoint "{655C04FE62D2BC86}" {
+   Position 79.805 33.276 -501.035
+  }
+  ShapePoint "{655C04FE63711AF0}" {
+   Position 91.343 31.305 -522.248
+  }
+  ShapePoint "{655C04FE64A9757F}" {
+   Position 101.338 27.036 -552.319
+  }
+  ShapePoint "{655C04FE652543B5}" {
+   Position 96.771 27.235 -572.62
+  }
+  ShapePoint "{655C04FE66F63E4E}" {
+   Position 76.842 33.824 -586.913
+  }
+  ShapePoint "{655C04FE670286C3}" {
+   Position 89.811 26.757 -620.718
+  }
+  ShapePoint "{655C04FE678E5C7C}" {
+   Position 111.388 21.557 -661.602
+  }
+  ShapePoint "{655C04FE58999A65}" {
+   Position 171.562 25.43 -708.673
+  }
+  ShapePoint "{655C04FE5C4B8E89}" {
+   Position 205.546 32.056 -747.397
+  }
+  ShapePoint "{655C04FE5C9D559D}" {
+   Position 268.364 38.239 -792.008
+  }
+  ShapePoint "{655C04FE5DC49200}" {
+   Position 283.36 35.362 -779.192
+  }
+  ShapePoint "{655C04FE5EA3D86D}" {
+   Position 325.584 30.27 -767.665
+  }
+  ShapePoint "{655C04FE5F116CDB}" {
+   Position 362.017 26.813 -765.506
+  }
+  ShapePoint "{655C04FE50F67FF2}" {
+   Position 433.568 23.367 -774.056
+  }
+  ShapePoint "{655C04FE53498EC6}" {
+   Position 472.223 14.856 -681.081
+  }
+  ShapePoint "{655C04FE5477370D}" {
+   Position 555.738 8.574 -605.091
+  }
+  ShapePoint "{655C04FE54D446E4}" {
+   Position 582.009 6.95 -570.943
+  }
+  ShapePoint "{655C04FE56B44F6C}" {
+   Position 553.604 6.574 -542.876
+  }
+  ShapePoint "{655C04FE57ED0303}" {
+   Position 701.314 16.806 -361.039
+  }
+  ShapePoint "{655C04FE486BE91D}" {
+   Position 703.523 18.39 -309.959
+  }
+  ShapePoint "{655C04FE4B78C631}" {
+   Position 636.1 18.177 -260.619
+  }
+  ShapePoint "{655C04FE4B9362C7}" {
+   Position 551.105 14.975 -201.304
+  }
+  ShapePoint "{655C04FE4D9BB0C3}" {
+   Position 461.493 10.345 -141.039
+  }
+  ShapePoint "{655C04FE4ED59D23}" {
+   Position 389.669 9.148 -84.205
+  }
+  ShapePoint "{655C04FE4001684E}" {
+   Position 313.966 12.101 -28.335
+  }
+  ShapePoint "{655C04FE41B017F1}" {
+   Position 79.619 6.557 11.634
+  }
+  ShapePoint "{655C04FE42CB5814}" {
+   Position 35.785 4.781 28.927
+  }
+ }
+}
+SCR_AIGroup : "{D0B3F4BF9E9EF2C7}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_PHQ_P.et" {
+ coords 4998.132 175.691 3708.925
+}
+$grp SCR_AIGroup : "{E479B31AD51CEB5A}Prefabs/Groups/OPFOR/GC_IRA/P/GC_IRA_RifleSquad_P.et" {
+ {
+  coords 4996.733 175.617 3699.779
+ }
+ {
+  coords 4994.741 174.9 3688.043
+ }
+}

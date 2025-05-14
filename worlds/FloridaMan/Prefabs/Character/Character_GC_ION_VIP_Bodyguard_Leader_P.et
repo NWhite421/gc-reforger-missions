@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{46DD7DB0E7378ADF}Prefabs/Characters/Factions/INDFOR/RHS_ION/VIP_Protection/P/Character_RHS_ION_VIP_Bodyguard_Black_P.et" {
+ ID "520EC961A090B1EE"
+ components {
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Personal Bodyguard (Detail Captain)"
+  }
+ }
+ coords 4762.086 339.124 10388.746
+}
